@@ -17,3 +17,17 @@ links.forEach((link, i) => {
         }
     })
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    function revealOnScroll() {
+        let section = document.querySelector(".contact-section");
+        let sectionTop = section.getBoundingClientRect().top;
+        let windowHeight = window.innerHeight;
+
+        if (sectionTop < windowHeight - 50) {
+            section.classList.add("visible");
+        }
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+});
