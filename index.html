@@ -142,37 +142,41 @@
     </div>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="contact-container">
-            <form class="contact-form">
-                 <!-- Social Media Links -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <form action="https://formsubmit.co/vamshikrishna7942@gmail.com" method="POST" class="contact-form">
+            <!-- Social Media Links -->
             <div class="social-links">
-                <a href="https://github.com/yourusername" target="_blank" class="social-btn">
+                <a href="https://github.com/vamsi422" target="_blank" class="social-btn">
                     <img src="https://cdn.simpleicons.org/github/white" alt="GitHub">
                 </a>
-                <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="social-btn">
+                <a href="https://www.linkedin.com/in/vamshi-krishna-665320182/" target="_blank" class="social-btn">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
                 </a>
             </div>
-                <fieldset>
-                    <legend class="contact-title">Contact Me</legend>
-    
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required>
-    
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="off" required>
-    
-                    <label for="msg">Message</label>
-                    <textarea name="msg" id="msg" placeholder="Enter your message" autocomplete="off" required></textarea>
-    
-                    <button type="submit" class="form-submit-btn">Send Message</button>
-                </fieldset>
-            </form>
-    
-           
-        </div>
-    </section>
+
+            <fieldset>
+                <legend class="contact-title">Contact Me</legend>
+
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="off" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter your message" autocomplete="off" required></textarea>
+
+                <!-- Hidden fields for additional features -->
+                <input type="hidden" name="_captcha" value="false"> <!-- Disable Captcha -->
+                <input type="hidden" name="_next" value=""> <!-- Redirect to thank you page -->
+
+                <button type="submit" class="form-submit-btn">Send Message</button>
+            </fieldset>
+        </form>
+    </div>
+</section>
+
     
     
     
