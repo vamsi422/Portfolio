@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vamsi422.github.io/Portfolio/tree/main/portfolio_project",
+  "homepage": "https://vamsi422.github.io/vamsi422/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
